@@ -4,18 +4,35 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 2.25rem;
+  line-height: 110%;
+  color: #000000;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 110%;
+  color: #222222;
+}
+
 /* Components */
 
 /* App */
 .app {
+  margin: 0 auto;
+  max-width: 34.375rem;
   height: 4.375rem;
   background: #ffffff;
 }
 
 /* Nav */
 .nav {
-  margin: 0 auto;
-  max-width: 34.375rem;
+  width: 100%;
   padding: 1.375rem 1.875rem;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
@@ -23,4 +40,21 @@
 .nav__logo__img {
   width: 5.125rem;
   height: 1.5844rem;
+}
+
+/* Hero */
+.hero {
+  padding: 2.25rem;
+}
+
+.hero__img {
+  width: 100%;
+}
+
+.hero__header {
+  margin-bottom: 1rem;
+}
+
+.hero__txt {
+  max-width: 20rem;
 }
