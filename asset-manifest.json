@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/air-bnb-app/static/css/main.073c9b0a.css",
-    "main.js": "/air-bnb-app/static/js/main.c1bc69a8.js",
-    "static/js/787.8b294856.chunk.js": "/air-bnb-app/static/js/787.8b294856.chunk.js",
-    "static/media/logo.svg": "/air-bnb-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/air-bnb-app/static/css/main.8f470caa.css",
+    "main.js": "/air-bnb-app/static/js/main.b7c028d3.js",
+    "static/media/logo.jpg": "/air-bnb-app/static/media/logo.31c2519db280949bde1f.jpg",
     "index.html": "/air-bnb-app/index.html",
-    "main.073c9b0a.css.map": "/air-bnb-app/static/css/main.073c9b0a.css.map",
-    "main.c1bc69a8.js.map": "/air-bnb-app/static/js/main.c1bc69a8.js.map",
-    "787.8b294856.chunk.js.map": "/air-bnb-app/static/js/787.8b294856.chunk.js.map"
+    "main.8f470caa.css.map": "/air-bnb-app/static/css/main.8f470caa.css.map",
+    "main.b7c028d3.js.map": "/air-bnb-app/static/js/main.b7c028d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.c1bc69a8.js"
+    "static/css/main.8f470caa.css",
+    "static/js/main.b7c028d3.js"
   ]
 }
