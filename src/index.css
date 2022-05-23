@@ -58,3 +58,71 @@ p {
 .hero__txt {
   max-width: 20rem;
 }
+
+/* Cards */
+.cards {
+  display: flex;
+  overflow: hidden;
+}
+
+.card {
+  position: relative;
+}
+
+.card__img img {
+  width: 11rem;
+  height: 14.6875rem;
+}
+
+.card:not(:last-child) {
+  margin-right: 1.125rem;
+}
+.card__rating__star {
+  width: 0.875rem;
+  height: 0.875rem;
+  float: left;
+  margin-right: 0.125rem;
+  vertical-align: middle;
+  position: relative;
+  top: -3px;
+}
+
+.card__rating span {
+  font-weight: 300;
+  color: #918e9b;
+}
+
+.card__price span {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 110%;
+}
+
+.card__img,
+.card__rating,
+.card__subject {
+  margin-bottom: 0.5rem;
+}
+
+.card__subject,
+.card__price,
+.card__rating {
+  font-size: 11px;
+  line-height: 110%;
+}
+
+.card__status {
+  width: 3.8125rem;
+  height: 1.25rem;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10.24px;
+  line-height: 110%;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0.375rem;
+  left: 0.5rem;
+}
