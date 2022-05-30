@@ -39,6 +39,6 @@ export default [
       reviewCount: 2,
     },
     location: "Norway",
-    openSpots: 3,
+    openSpots: 2,
   },
 ];

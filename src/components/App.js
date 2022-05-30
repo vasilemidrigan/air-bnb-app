@@ -13,9 +13,10 @@ const cards = data.map((el) => {
       img={el.coverImg}
       rating={el.stats.rating}
       reviewCount={el.stats.reviewCount}
-      location={el.country}
+      location={el.location}
       title={el.title}
       price={el.price}
+      openSpots={el.openSpots}
     />
   );
 });

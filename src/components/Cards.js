@@ -3,9 +3,16 @@ import React from "react";
 import star from "../img/star.png";
 
 export default function Card(props) {
+  let badge;
+  console.log(props.location);
+  if (props.openSpots === 0) {
+    badge = "SOLD OUT";
+  } else if (props.location === "Online") {
+    badge = "ONLINE";
+  }
   return (
     <div className="card">
-      <div className="card__status">sold out</div>
+      {badge && <div className="badge">{badge}</div>}
       <div className="card__img">
         <img src={require(`../img/${props.img}`)} alt="" />
       </div>
